@@ -1,0 +1,35 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .hero-section {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 0px;
+  }
+  
+  .about-section {
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text within the container */
+    width: 70%; /* Keeps the width as defined */
+    background-color: #ffffff; /* Background color remains white */
+    padding: 0px; /* Keeps padding as defined */
+    height: 100%; /* Ensures it takes the full height of the parent container */
+  }
+  
+  footer {
+    background-color: #D9C4B0; /* Updated background color */
+    color: #333; /* Adjusted text color for better contrast */
+    text-align: center;
+    padding: 10px; /* Adds padding inside the footer */
+  }

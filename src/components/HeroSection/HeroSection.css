@@ -1,0 +1,95 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    padding: 0;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif; /* Sets the same font as AboutSection */
+    justify-content: flex-start; /* Aligns content to the top */
+    align-items: center; /* Centers content horizontally */
+  }
+  
+  .hero-picture {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  .hero-picture img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+  }
+  
+  .hero-info {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns content closer to the top */
+    align-items: center; /* Centers content horizontally */
+    text-align: center; /* Centers text within the div */
+    padding: 20px; /* Adds padding around the content */
+    padding-bottom: 40px; /* Extra padding at the bottom for the button */
+    padding-top: 0; /* Reduces top padding */
+  }
+  
+  .hero-info h1 {
+    font-size: 2rem; /* Adjusted font size */
+    color: #333; /* Dark gray for better contrast */
+    margin: 5px 0; /* Reduces spacing above and below the heading */
+    font-weight: bold;
+    line-height: 1.2; /* Reduces the space between lines */
+  }
+  
+  .hero-info p {
+    font-size: 1.3rem; /* Adjusted font size for readability */
+    color: #555; /* Medium gray for text */
+    margin: 5px 0; /* Reduces spacing between lines */
+    line-height: 1.2; /* Reduces the space between lines */
+  }
+  
+  .hero-info h2 {
+    font-size: 1.5rem; /* Adjusted font size */
+    color: #555;
+    margin: 5px 0; /* Reduces spacing above and below the subtitle */
+    line-height: 1.2; /* Reduces the space between lines */
+  }
+  
+  .email-button {
+    margin-top: auto; /* Pushes the button to the bottom of the .hero-info div */
+    padding: 15px 30px; /* Increased padding for a larger button */
+    font-size: 1.3rem; /* Adjusted font size */
+    color: #000000; /* Black text */
+    background-color: #ffffff; /* White background */
+    border: 1px solid #000000; /* Black border */
+    border-radius: 5px; /* Adds rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+  }
+  
+  .email-button:hover {
+    background-color: #8D77AB; /* Light gray background on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+  }
+  
+  .icon-top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon-bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+  
+  

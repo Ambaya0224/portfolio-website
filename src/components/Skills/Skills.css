@@ -1,0 +1,82 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }  
+  /* Main Skills Section */
+  .skills-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .skills-main h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  /* Footer */
+  .skills-footer {
+    background-color: #8D77AB; /* Footer background color */
+    color: #333; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+    margin: 0; /* Adds spacing between icons */
+    font-size: 30px; /* Adjusts the size of the icons */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.skills-footer a {
+    color: #333; /* Dark gray link color */
+    margin: 0 10px; /* Adds spacing between icons */
+    font-size: 30px; /* Adjusts the size of the icons */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.skills-footer a:hover {
+    color: #1da1f2; /* Changes color on hover (e.g., Twitter blue) */
+}
+
+
+.skills-footer a:hover {
+color: #1da1f2; /* Changes color on hover (e.g., Twitter blue) */
+}
+
+
+/* Increase font size for the entire Skills page */
+.skills-container {
+    font-size: 1.5rem; /* Increase font size by 25% */
+    line-height: 1.8; /* Add better line spacing for readability */
+  }
+  
+  .skills-container h1 {
+    font-size: 2.5rem; /* Make the page title larger */
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .skills-container .card-header {
+    font-size: 1.5rem; /* Make card headers slightly larger */
+  }
+  
+  .skills-container .card-text {
+    font-size: 1.3rem; /* Make card text slightly larger */
+  }
+  
+  .skills-footer {
+    font-size: 1.3rem; /* Increase font size for the footer */
+  }

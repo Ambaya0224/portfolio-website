@@ -1,0 +1,52 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1; /* Takes up all available space except the footer */
+  }
+  
+  .hero-container {
+    width: 35%; /* HeroSection takes 30% of the width */
+    background-color: white; /* Light gray background for HeroSection */
+  }
+  
+  .about-container {
+    width: 70%; /* AboutSection takes 70% of the width */
+    background-color: #BBDCE5; /* White background for AboutSection */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer {
+      background-color: #8D77AB; /* Footer background color */
+      color: #333; /* Footer text color */
+      text-align: center;
+      padding: 20px;
+      margin: 0; /* Adds spacing between icons */
+      font-size: 30px; /* Adjusts the size of the icons */
+      text-decoration: none; /* Removes underline from links */
+  }
+  
+  .footer a {
+      color: #333; /* Dark gray link color */
+      margin: 0 10px; /* Adds spacing between icons */
+      font-size: 30px; /* Adjusts the size of the icons */
+      text-decoration: none; /* Removes underline from links */
+  }
+  
+  .footer a:hover {
+      color: #1da1f2; /* Changes color on hover (e.g., Twitter blue) */
+  }
+  
+  
+  .footer a:hover {
+  color: #1da1f2; /* Changes color on hover (e.g., Twitter blue) */
+  }
